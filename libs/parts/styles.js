@@ -4,27 +4,30 @@ export default StyleSheet.create({
   //passwordInputView
   passwordInputView          : {
     alignSelf    : 'center',
+
   },
   passwordInputViewItem      : {
     alignItems    : 'center',
     justifyContent: 'center',
-    height        : 35,
+    height        : 16,
     margin        : 5,
-    width         : 35,
-    borderRadius  : 35 / 2,
+    width         : 16,
+    borderRadius  : 16 / 2,
+    borderStyle: 'solid',
+    borderWidth : 1,
   },
   passwordInputViewItemActive: {
     alignItems    : 'center',
     justifyContent: 'center',
-    height        : 35,
-    width         : 35,
+    height        : 16,
+    width         : 16,
     margin        : 5,
-    borderRadius  : 35 / 2,
+    borderRadius  : 16 / 2,
   },
   // KeyboardView
   keyboardView               : {
     alignItems: 'center',
-    marginTop : 35,
+    marginTop : 16,
   },
   keyboardViewItem           : {
     alignItems      : 'center',
@@ -37,6 +40,5 @@ export default StyleSheet.create({
   },
   keyboardViewItemText       : {
     fontSize  : 22,
-    fontWeight: '900',
   },
 })
