@@ -3,9 +3,12 @@
   "version": "2.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/talut/react-native-pin-view.git"
+    "url": "https://github.com/athulmurali/react-native-pin-view.git"
   },
-  "description": "React Native Pin View Component for Protection",
+  "description": "React Native Pin View Component for Protection. This is a modified version from Talut's repo. Updated border style  for input. A new fork request will be given once the setup is ready",
+
+
+
   "keywords": [
     "react-native",
     "pin-view",
@@ -20,7 +23,7 @@
     "PinView"
   ],
   "main": "index.js",
-  "author": "Talut Tasgiran",
+  "author": "Talut Tasgiran, Athul Muralidharan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/talut/react-native-pin-view/issues"
@@ -28,7 +31,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
-  "homepage": "https://github.com/talut/react-native-pin-view",
+  "homepage": "https://github.com/athulmurali/react-native-pin-view",
   "dependencies": {
     "prop-types": "^15.6.2"
   }
