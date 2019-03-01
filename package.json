@@ -1,5 +1,5 @@
 {
-  "name": "react-native-pin-view",
+  "name": "styled-react-native-pin-view",
   "version": "2.1.0",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "author": "Talut Tasgiran, Athul Muralidharan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/talut/react-native-pin-view/issues"
+    "url": "https://github.com/athulmurali/react-native-pin-view/issues"
   },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
