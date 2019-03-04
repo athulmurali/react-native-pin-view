@@ -1,7 +1,8 @@
 import React from 'react';
 import {Animated, View, FlatList, Text, TouchableOpacity, I18nManager} from "react-native";
 
-const KeyboardView = ({keyboardOnPress, pinLength, onComplete, bgColor, returnType, textColor, animatedDeleteButton, deleteText, animatedDeleteButtonOnPress, styles}) => {
+const KeyboardView = ({keyboardOnPress, pinLength, onComplete, bgColor, returnType, textColor, animatedDeleteButton, deleteText, animatedDeleteButtonOnPress, styles,
+                          keyboardMarginTop}) => {
   let data;
   if(I18nManager.isRTL) {
     data = ["1", "2", "3", "4", "5", "6", "7", "8", "9", deleteText, "0", null].reverse();
@@ -24,7 +25,7 @@ const KeyboardView = ({keyboardOnPress, pinLength, onComplete, bgColor, returnTy
     return (
         <TouchableOpacity
             key={"key-item-" + index}
-            activeOpacity={0.9}
+            activeOpacity={0.1}
             onPress={() => keyboardOnPress(item, returnType, pinLength, onComplete)}
             disabled={onPressInactive}>
           <Animated.View style={[style, {
@@ -41,6 +42,7 @@ const KeyboardView = ({keyboardOnPress, pinLength, onComplete, bgColor, returnTy
   return (
       <FlatList
           contentContainerStyle={{
+            marginTop :keyboardMarginTop,
             flexDirection: I18nManager.isRTL ? 'column-reverse' : 'column',
             alignItems   : I18nManager.isRTL ? 'flex-end' : 'flex-start',
           }}
