@@ -31,13 +31,13 @@ With v2.0.1 user inputted pin will not verified by `react-native-pin-view`. PinV
 **via Yarn**
 
 ```
-yarn add react-native-pin-view
+yarn add styled-react-native-pin-view
 ```
 
 **via NPM**
 
 ```
-npm install --save react-native-pin-view
+npm install --save styled-react-native-pin-view
 ```
 
 ## Basic Usage
